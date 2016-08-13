@@ -1,0 +1,78 @@
+/* General styles */
+.shadow {
+	box-shadow: 0px 2px 16px #aaaaaa;
+}
+
+.av {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+/* Body */
+body {
+	margin-top: 60px;
+}
+
+/* Navigation Bar */
+
+.navbar-header img {
+	margin-top: -15px;
+	height: 50px;
+}
+
+/* Modal Dialogs */
+div.modal-dialog {
+	margin-top: 100px;
+}
+
+#login .modal-dialog {
+	width: 450px;
+}
+
+/* Jumbotron */
+.jumbotron-content {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/*div.jumbotron {
+	background-image: url("../images/homepage/banner.jpg");
+	background-size: cover;
+	background-position: center bottom;
+	height: 600px;
+	width: 100%;
+	color: #ffffff;
+}*/
+
+.jumbotron {
+	background-color: #ffffff;
+}
+
+/* Page content */
+.page-content {
+	margin-top: 30px;
+}
+
+
+/* Signup choice */
+.signup-choice {
+	margin-top: 20px;
+}
+
+.signup-choice .panel-body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/* Menu elements */
+.menu-button, .menu-form-group {
+	margin-top: 21px;
+}
+
+.menu-form-group {
+	margin-bottom: 0px;
+}
+
+.menu-heading {
+	margin-top: 33px;
+}
