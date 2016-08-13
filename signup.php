@@ -44,5 +44,12 @@
 			</div>
 		</div>
 	</div>
+	<div class="container">
+		<p class="text-danger">
+			<em>
+				**Currently, the only university in the LeagueShark database is a fictional university called Oceanside Tech. You can create a new fictional university account, but you will not be able to sign up as a player at Oceanside Tech because any player attempting to sign up is validated against a list of pre-loaded eligible students at whatever university they choose. I recommend clicking Log In on the home page to explore the site.
+			</em>
+		</p>
+	</div>
 </body>
 </html>

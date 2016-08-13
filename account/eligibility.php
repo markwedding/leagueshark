@@ -18,7 +18,7 @@
 		if(empty($_FILES['efile']['name'])) {
 			$empty_file = true;
 		} elseif($_FILES['efile']['error'] != UPLOAD_ERR_OK) {
-			$file_upload_error = true;	
+			$file_upload_error = true;
 		} else {
 			$tmp_name = $_FILES['efile']['tmp_name'];
 			$name = $schoolid . '_' . date('Y-d-m_H-i-s');
@@ -26,7 +26,7 @@
 
 			$participants = file($filepath . 'csv_uploads/' . $name . '.csv') or die('ERROR: Cannot find file');
 			$delimiter = ',';
-			
+
 			try {
 				include($filepath . "connect-to-db.php");
 
@@ -38,7 +38,7 @@
 					$insert_ep_sql = "INSERT INTO eligibility (SchoolID, StudentID, StudentEmail) VALUES (:schoolid, :studentid, :studentemail)";
 					$insert_ep_statement = $pdo->prepare($insert_ep_sql);
 					$insert_ep_statement->bindValue(':schoolid', $schoolid);
-					
+
 					foreach($participants as $participant) {
 						$participantFields = explode($delimiter, $participant);
 
@@ -69,7 +69,7 @@
 	}
 
 	if(isset($_POST['ac']) and isset($update_successful)) {
-		header("Location: payment.php?ac=1");
+		header("Location: ../leagues.php");
 	}
 ?>
 

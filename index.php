@@ -140,12 +140,12 @@
 								<form method="post" action="index.php" id="loginform">
 									<div class="form-group">
 										<label class="control-label" for="email">Email Address</label>
-										<input type="email" class="form-control" id="email" name="email" required/>
+										<input type="email" class="form-control" id="email" name="email" required data-toggle="tooltip" data-placement="left" title="Enter bsmith@tech.edu for school account and justinb31@tech.edu for player account"/>
 										<span class="text-danger"><small></small></span>
 									</div>
 									<div class="form-group">
 										<label class="control-label" for="password">Password</label>
-										<input type="password" class="form-control" id="password" name="password" required/>
+										<input type="password" class="form-control" id="password" name="password" required data-toggle="tooltip" data-placement="left" title="Enter ocean123"/>
 										<span class="text-danger"><small></small></span>
 									</div>
 									<button type="submit" class="btn btn-success btn-block" id="lsubmit" name="lsubmit">Log In</button>
@@ -198,7 +198,7 @@
 		</div>
 		<div class="container">
 			<h4 class="text-danger text-center">
-				<em>Warning: LeagueShark is a showcase project, not a real product.</em>
+				<em>**Warning: LeagueShark is a showcase project, not a real service. Click Log In to explore the site. Anything that says PHASE II Functionality has not been implemented.</em>
 			</h4>
 		</div>
 	</div>

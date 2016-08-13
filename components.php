@@ -49,7 +49,7 @@
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo $name;?> <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#" data-toggle="tooltip" data-placement="left" title="PHASE II Functionality">Account Information</a></li>
-							<li><a href="<?php echo $filepath;?>account/payment.php">Payment</a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="left" title="PHASE II Functionality">Payment</a></li>
 							<li><a href="<?php echo $filepath;?>account/eligibility.php">Eligibility</a></li>
 						</ul>
 					</li>
@@ -80,7 +80,7 @@
 					<li><a href="<?php echo $filepath;?>logout.php">Log Out</a></li>
 				</ul>
 	<?php } elseif($type=='home') {?>
-				<ul class="nav navbar-nav navbar-right">	
+				<ul class="nav navbar-nav navbar-right">
 					<li><a href="" data-toggle="modal" data-target="#login">Log In</a></li>
 					<li><a href="signup.php">Sign Up</a></li>
 				</ul>
@@ -96,7 +96,7 @@
 	<h4><?php echo $name;?></h4>
 	<ul class="nav nav-pills">
 		<li><a href="#" data-toggle="tooltip" data-placement="bottom" title="PHASE II Functionality">Account Information</a></li>
-		<li><a href="payment.php">Payment</a></li>
+		<li><a href="#" data-toggle="tooltip" data-placement="bottom" title="PHASE II Functionality">Payment</a></li>
 		<li><a href="eligibility.php">Eligibility</a></li>
 	</ul>
 	<hr>
